@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, MessagesPlaceholder
 
-chat_model = ChatGoogleGenerativeAI(api_key="AIzaSyC1B3zDW4G19olwgTz368YgS-ZARqzsEFE", model="gemini-2.0-flash-exp")
+chat_model = ChatGoogleGenerativeAI(api_key="", model="gemini-2.0-flash-exp")
 output_parser = StrOutputParser()
 
 chat_template = ChatPromptTemplate(
